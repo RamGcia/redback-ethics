@@ -96,7 +96,7 @@ Output Includes:
 | `--root`      | Path      | Recursively scan all files in a directory.                    | `python scanner.py --root "/path/to/"`    |
 | `--patterns`  | Path      | Custom path to `patterns.json`.                               | `--patterns ./configs/patterns.json`      |
 | `--out`       | Path      | Path to save structured scan results (e.g., `.json`, `.txt`). | `--out results.json`                      |
-| `--ext`       | List      | Filter by file extensions (_default: .txt, .docx, .pdf_).     | `--ext .txt .md`                          |
+| `--ext`       | List      | Filter by file extensions (_default: .txt, .json_).           | `--ext .txt .md`                          |
 | `--no-console`| Flag      | Suppress console output. Only write to the output file.       | `--no-console`                            |
 
 ### Example Usage:
